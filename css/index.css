@@ -1,0 +1,158 @@
+/* Налаштування основного - початок */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Налаштування основного - кінець */
+
+/* Налаштування навігаційної панелі - початок */
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #263B7C;
+}
+
+.Logo, .nav_menu {
+    margin-right: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Logo img {
+    vertical-align: middle;
+    width: 36px;
+}
+
+.nav_menu li {
+    margin-right: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav_menu .page_now {
+    color: gold;
+}
+
+.nav_menu a {
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+.nav_menu button {
+    vertical-align: middle;
+    font-size: 24px;
+    background-color: #263B7C;;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.nav_menu a:hover {
+    color: yellow;
+}
+
+.nav_menu button:hover {
+    color: yellow;
+}
+
+/* Налаштування навігаційної панелі - кінець */
+
+/* Налаштування заголовку сторінки - початок */
+
+.title_main {
+    margin: 16px;
+    text-align: center;
+}
+
+.title_main h1 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+/* Налаштування заголовку сторінки - кінець */
+
+/* Налаштування основного контенту сторінки - початок */
+
+.top10_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.top10_content span {
+    font-weight: bold;
+}
+
+.top10_content button {
+    background-color: #263B7C;
+    width: 120px;
+    border-radius: 8px;
+}
+
+.top10_content a {
+    text-decoration: none;
+    color: white;
+}
+
+.top10_content a:hover {
+    color: yellow;
+}
+
+.photo img {
+    width: 150px;
+    height: 200px;
+}
+
+.top {
+    width: 660px;
+    height: 200px;
+    margin-top: 16px;
+    border: black 1px solid;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: lightblue;
+}
+
+.top img {
+    position: absolute;
+}
+
+.top p {
+    margin-left: 164px;
+    width: 500px;
+}
+
+.top button {
+    margin-top: 40px;
+    margin-left: 540px;
+}
+
+/* Налаштування основного контенту - кінець */
+
+/* Налаштування футеру сайту - початок */
+
+.footer {
+    margin-top: auto;
+    padding: 20px;
+    background-color: #263B7C;
+}
+
+/* Налаштування футеру сайту - кінець */

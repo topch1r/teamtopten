@@ -1,0 +1,114 @@
+/* Налаштування основного - початок */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Налаштування основного - кінець */
+
+/* Налаштування навігаційної панелі - початок */
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #263B7C;
+}
+
+.Logo, .nav_menu {
+    margin-right: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Logo img {
+    vertical-align: middle;
+    width: 36px;
+}
+
+.nav_menu li {
+    margin-right: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav_menu .page_now {
+    color: gold;
+}
+
+.nav_menu a {
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+}
+
+.nav_menu button {
+    vertical-align: middle;
+    font-size: 24px;
+    background-color: #263B7C;;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.nav_menu a:hover {
+    color: yellow;
+}
+
+.nav_menu button:hover {
+    color: yellow;
+}
+
+/* Налаштування навігаційної панелі - кінець */
+
+/* Налаштування заголовку та основного контенту сторінки - початок */
+
+.title_about {
+    margin: 16px;
+    text-align: center;
+}
+
+.title_about h1 {
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.info_about {
+    display: flex;
+    justify-content: center;
+}
+
+.border_about {
+    border: black 1px solid;
+}
+
+.info_about p {
+    font-size: 20px;
+    padding: 16px;
+    width: 500px;
+    text-align: center;
+}
+
+/* Налаштування заголовку та основного контенту сторінки - кінець */
+
+/* Налаштування футеру сайту - початок */
+
+.footer {
+    margin-top: auto;
+    padding: 20px;
+    background-color: #263B7C;
+}
+
+/* Налаштування футеру сайту - кінець */
